@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "valeriy",
+    "password": "samsung",
+    "database": "goods_db",
+    "host": "127.0.0.1",
+    "dialect": "postgres",
+    "migrationStorage": "json",
+    "seederStorage": "json"
+  },
+  "test": {
+    "username": "migrationStorage и seederStorage - для того, чтобы база не создавала таблицы с мета данными, для более удобной миграции на другие базы"
+  },
+  "production": {}
+}
+
+
